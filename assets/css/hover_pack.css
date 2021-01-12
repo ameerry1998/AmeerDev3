@@ -687,7 +687,7 @@ visibility:visible; /* lt-ie9 */
   top: -90px;
   bottom: -60px;
   width:20%;
-  background:white;
+  background:#f5f3f4;
   transition:all 0.2s linear;
   -moz-transition:all 0.2s linear;
   -ms-transition:all 0.2s linear;
@@ -720,6 +720,7 @@ visibility:visible; /* lt-ie9 */
 
 .b-link-diagonal .b-line4{
   left:60%;
+
   transition-delay:0.3s !important;
   -moz-transition-delay:0.3s !important;
   -ms-transition-delay:0.3s !important;

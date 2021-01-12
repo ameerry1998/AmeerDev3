@@ -157,3 +157,8 @@
 		});
 
 })(jQuery);
+
+
+
+
+// Here we have the form functionality through formspree

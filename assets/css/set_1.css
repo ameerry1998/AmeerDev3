@@ -1,0 +1,339 @@
+.set_1_btn {
+	color: #333;
+	cursor: pointer;
+	display: block;
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 50px;
+	margin-right: 3em;
+	text-align: center;
+	max-width: 160px;
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+	vertical-align: middle;
+	width: 100%;
+}
+.set_1_btn:hover {
+	text-decoration: none;
+}
+.Vbtn-1 {
+	background:transparent;
+	text-align: center;
+	float:left;
+}
+.Vbtn-1 svg {
+	height: 50px;
+	left: -5px;
+	position: absolute;
+	top: 0;
+	width: 170px;
+}
+.Vbtn-1 rect {
+	fill: none;
+	stroke: white;
+	stroke-width: 5;
+	stroke-dasharray: 422, 0;
+	transition: all 450ms linear 0s;
+}
+.Vbtn-1:hover {
+	background: rgba(225, 51, 45, 0);
+	font-weight: 900;
+	letter-spacing: 1px;
+	transition: all 150ms linear 0s;
+}
+.Vbtn-1:hover rect {
+	stroke-width: 5;
+	stroke-dasharray: 15, 310;
+	stroke-dashoffset: 48;
+	-webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+	transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+#container_location{
+	position: absolute;
+	top: 65%;
+	left: 55%;
+	transform: translate(-50%, -50%); width:50%;
+	background-color: transparent;
+}
+
+
+
+
+
+@media screen and (max-width: 1680px) {}
+
+@media screen and (max-width: 1280px) {}
+
+@media screen and (max-width: 1024px) {
+
+	.set_1_btn {
+		color: #333;
+		cursor: pointer;
+		display: block;
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 45px;
+		margin-right: 0.8em;
+		text-align: center;
+		max-width: 160px;
+		position: relative;
+		text-decoration: none;
+		text-transform: uppercase;
+		vertical-align: middle;
+		width: 100%;
+	}
+	.set_1_btn:hover {
+		text-decoration: none;
+	}
+	.Vbtn-1 {
+		background:transparent;
+		text-align: center;
+		float:left;
+	}
+	.Vbtn-1 svg {
+		height: 40px;
+		left: 10px;
+		position: absolute;
+		top: 2.5px;
+		width: 85%;
+	}
+	.Vbtn-1 rect {
+		fill: none;
+		stroke: white;
+		stroke-width: 5;
+		stroke-dasharray: 422, 0;
+		transition: all 450ms linear 0s;
+	}
+	.Vbtn-1:hover {
+		background: rgba(225, 51, 45, 0);
+		font-weight: 900;
+		letter-spacing: 1px;
+		transition: all 150ms linear 0s;
+	}
+	.Vbtn-1:hover rect {
+		stroke-width: 5;
+		stroke-dasharray: 15, 310;
+		stroke-dashoffset: 48;
+		-webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+		transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	#container_location{
+		position: absolute;
+		top: 65%;
+		left: 55%;
+		transform: translate(-50%, -50%); width:50%;
+		background-color: transparent;
+	}
+
+
+
+}
+
+@media screen and (max-width: 736px) {
+
+	.set_1_btn {
+		color: #333;
+		cursor: pointer;
+		display: block;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 45px;
+		margin-right: 2em;
+		text-align: center;
+		max-width: 160px;
+		position: relative;
+		text-decoration: none;
+		text-transform: uppercase;
+		vertical-align: middle;
+		width: 100%;
+	}
+	.set_1_btn:hover {
+		text-decoration: none;
+	}
+	.Vbtn-1 {
+		background:transparent;
+		text-align: center;
+		float:left;
+	}
+	.Vbtn-1 svg {
+		height: 45px;
+		left: 10px;
+		position: absolute;
+		top: 0;
+		width: 87%;
+	}
+	.Vbtn-1 rect {
+		fill: none;
+		stroke: white;
+		stroke-width: 5;
+		stroke-dasharray: 422, 0;
+		transition: all 450ms linear 0s;
+	}
+	.Vbtn-1:hover {
+		background: rgba(225, 51, 45, 0);
+		font-weight: 900;
+		letter-spacing: 1px;
+		transition: all 150ms linear 0s;
+	}
+	.Vbtn-1:hover rect {
+		stroke-width: 5;
+		stroke-dasharray: 15, 310;
+		stroke-dashoffset: 48;
+		-webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+		transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	#container_location{
+		position: absolute;
+		top: 60%;
+		left: 47%;
+		transform: translate(-50%, -50%); width:50%;
+		background-color: transparent;
+	}
+
+
+}
+
+@media screen and (max-width: 480px) {
+	.set_1_btn {
+		color: #333;
+		cursor: pointer;
+		display: block;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 45px;
+		margin-right: 0em;
+		text-align: center;
+		max-width: 160px;
+		position: relative;
+		text-decoration: none;
+		text-transform: uppercase;
+		vertical-align: middle;
+		width: 100%;
+	}
+	.set_1_btn:hover {
+		text-decoration: none;
+	}
+	.Vbtn-1 {
+		background:transparent;
+		text-align: center;
+		float:left;
+	}
+	.Vbtn-1 svg {
+		height: 35px;
+		left: 20%;
+		position: absolute;
+		top: 10%;
+		width: 60%;
+	}
+	.Vbtn-1 rect {
+		fill: none;
+		stroke: white;
+		stroke-width: 5;
+		stroke-dasharray: 422, 0;
+		transition: all 450ms linear 0s;
+	}
+	.Vbtn-1:hover {
+		background: rgba(225, 51, 45, 0);
+		font-weight: 900;
+		letter-spacing: 1px;
+		transition: all 150ms linear 0s;
+	}
+	.Vbtn-1:hover rect {
+		stroke-width: 5;
+		stroke-dasharray: 15, 310;
+		stroke-dashoffset: 48;
+		-webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+		transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	#container_location{
+		position: absolute;
+		top: 65%;
+		left: 32%;
+		transform: translate(-50%, -50%); width:50%;
+		background-color: transparent;
+	}
+
+
+}
+
+
+@media screen and (max-width: 340px) {
+	.set_1_btn {
+		color: #333;
+		cursor: pointer;
+		display: block;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 45px;
+		margin-right: 0em;
+		text-align: center;
+		max-width: 160px;
+		position: relative;
+		text-decoration: none;
+		text-transform: uppercase;
+		vertical-align: middle;
+		width: 100%;
+	}
+	.set_1_btn:hover {
+		text-decoration: none;
+	}
+	.Vbtn-1 {
+		background:transparent;
+		text-align: center;
+		float:left;
+	}
+	.Vbtn-1 svg {
+		height: 35px;
+		left: 20%;
+		position: absolute;
+		top: 10%;
+		width: 60%;
+	}
+	.Vbtn-1 rect {
+		fill: none;
+		stroke: white;
+		stroke-width: 5;
+		stroke-dasharray: 422, 0;
+		transition: all 450ms linear 0s;
+	}
+	.Vbtn-1:hover {
+		background: rgba(225, 51, 45, 0);
+		font-weight: 900;
+		letter-spacing: 1px;
+		transition: all 150ms linear 0s;
+	}
+	.Vbtn-1:hover rect {
+		stroke-width: 5;
+		stroke-dasharray: 15, 310;
+		stroke-dashoffset: 48;
+		-webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+		transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	#container_location{
+		position: absolute;
+		top: 65%;
+		left: 20%;
+		transform: translate(-50%, -50%); width:50%;
+		background-color: transparent;
+	}
+
+	#banner-typing-text{
+		width: 120%;
+		color: #4acaa8;
+		font-size: 1em;
+		font-weight: 700;
+		margin-top: -0.75em;
+	}
+
+	.banner-text1{position:absolute; top: 50%; left: 68%; transform: translate(-50%, -50%);}
+
+	.banner-text2{color:white; width: 500; position:absolute; top: 57%; left: 68%; transform: translate(-50%, -50%);}
+
+
+}

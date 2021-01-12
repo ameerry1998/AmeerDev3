@@ -499,10 +499,14 @@ input, select, textarea {
 
 				}
 
+				.Book-Review-Column{
+						width: 33.33333%;
+				}
+
 
 				/* end of tpying text and beginnging of buttons */
 
-				.Vbtn-1 {
+				/* .Vbtn-1 {
 					background:transparent;
 					text-align: center;
 					float:left;
@@ -542,15 +546,39 @@ input, select, textarea {
 					left: -55%;
 					position: absolute;
 					top: 0;
-				}
+				} */
 
 				.banner-text1{position:absolute; top: 50%; left: 80%; transform: translate(-50%, -50%);}
 
 				.banner-text2{color:white; width: 500; position:absolute; top: 57%; left: 80%; transform: translate(-50%, -50%);}
 
-				.banner-text-row-1-text-1{color:white; border-bottom:0px;  font-size:1.18em;}
+				/* .banner-text-row-1-text-1{color:white; border-bottom:0px;  font-size:1.18em;}
 
-				.banner-text-row-1-text-2{color:white; border-bottom:0px;  font-size:1.18em; padding-left:85%;}
+				.banner-text-row-1-text-2{color:white; border-bottom:0px;  font-size:1.18em; padding-left:85%;} */
+
+				/* ////////projects h4/////////// */
+
+				.Projects-h4{
+					color: color:#474448;
+					position: absolute;
+					top:-40px;
+				}
+
+				/* ////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 				/* //////////////////////////////End of header typing text and buttons/////////////////////////////////////// */
 
@@ -1073,7 +1101,7 @@ input, select, textarea {
 
 
 												/* end of tpying text and beginnging of buttons */
-
+/*
 																		.Vbtn-1 {
 																			background:transparent;
 																			text-align: center;
@@ -1114,15 +1142,15 @@ input, select, textarea {
 																			left: -55%;
 																			position: absolute;
 																			top: 0;
-																		}
+																		} */
 
 																		.banner-text1{position:absolute; top: 50%; left: 80%; transform: translate(-50%, -50%);}
 
 																		.banner-text2{color:white; width: 500; position:absolute; top: 57%; left: 80%; transform: translate(-50%, -50%);}
 
-																		.banner-text-row-1-text-1{color:white; border-bottom:0px;  font-size:1.18em;}
+																		/* .banner-text-row-1-text-1{color:white; border-bottom:0px;  font-size:1.18em;}
 
-																		.banner-text-row-1-text-2{color:white; border-bottom:0px;  font-size:1.18em; padding-left:85%;}
+																		.banner-text-row-1-text-2{color:white; border-bottom:0px;  font-size:1.18em; padding-left:85%;} */
 
 																		/* //////////////////////////////End of header typing text and buttons/////////////////////////////////////// */
 
@@ -1377,15 +1405,25 @@ input, select, textarea {
 						#banner-typing-text{
 							width: 100%;
 							color: #4acaa8;
-							font-size: 1.3em;
+							font-size: 2em;
 							font-weight: 700;
 							margin-top: -2em;
 
 						}
 
+						/* ////////projects h4/////////// */
+
+						.Projects-h4{
+							color: color:#474448;
+							position: absolute;
+							top:15px;
+						}
+
+						/* ////////////////////////////// */
+
 
 						/* end of tpying text and beginnging of buttons */
-																		.Vbtn-1 {
+																		/* .Vbtn-1 {
 																			background:transparent;
 																			text-align: center;
 																			float:left;
@@ -1426,15 +1464,15 @@ input, select, textarea {
 																			left: -55%;
 																			position: absolute;
 																			top: 0;
-																		}
+																		} */
 
 																		.banner-text1{position:absolute; top: 50%; left: 80%; transform: translate(-50%, -50%);}
 
 																		.banner-text2{color:white; width: 500; position:absolute; top: 57%; left: 80%; transform: translate(-50%, -50%);}
 
-																		.banner-text-row-1-text-1{color:white; border-bottom:0px;  font-size:1em;}
+																		/* .banner-text-row-1-text-1{color:white; border-bottom:0px;  font-size:1em;}
 
-																		.banner-text-row-1-text-2{color:white; border-bottom:0px;  font-size:1em; padding-left:70%;}
+																		.banner-text-row-1-text-2{color:white; border-bottom:0px;  font-size:1em; padding-left:70%;} */
 
 						/* //////////////////////////////End of header typing text and buttons/////////////////////////////////////// */
 
@@ -1690,15 +1728,31 @@ input, select, textarea {
 						#banner-typing-text{
 							width: 100%;
 							color: #4acaa8;
-							font-size: 0.9em;
+							font-size: 1.55em;
 							font-weight: 700;
 							margin-top: -2em;
 
 						}
 
+						/* ////////projects h4/////////// */
+
+						.Projects-h4{
+							color: color:#474448;
+							position: absolute;
+							font-size: 0.83em;
+							top:4px;
+						}
+
+						/* ////////////////////////////// */
+
+
+						.Book-Review-Column{
+								width: 100%;
+						}
+
 
 						/* end of tpying text and beginnging of buttons */
-																		.Vbtn-1 {
+																		/* .Vbtn-1 {
 																			background:transparent;
 																			text-align: center;
 																			float:left;
@@ -1739,15 +1793,15 @@ input, select, textarea {
 																			left: -55%;
 																			position: absolute;
 																			top: 0;
-																		}
+																		} */
 
-																		.banner-text1{position:absolute; top: 50%; left: 80%; transform: translate(-50%, -50%);}
+																		.banner-text1{position:absolute; top: 45%; left: 73%; transform: translate(-50%, -50%);}
 
-																		.banner-text2{color:white; width: 500; position:absolute; top: 57%; left: 80%; transform: translate(-50%, -50%);}
+																		.banner-text2{color:white; width: 500; position:absolute; top: 55%; left: 73%; transform: translate(-50%, -50%);}
 
-																		.banner-text-row-1-text-1{color:white; border-bottom:0px;  font-size:0.8em;}
+																		/* .banner-text-row-1-text-1{color:white; border-bottom:0px;  font-size:0.8em;}
 
-																		.banner-text-row-1-text-2{color:white; border-bottom:0px;  font-size:1em; padding-left:70%;}
+																		.banner-text-row-1-text-2{color:white; border-bottom:0px;  font-size:1em; padding-left:70%;} */
 
 						/* //////////////////////////////End of header typing text and buttons/////////////////////////////////////// */
 
@@ -2004,15 +2058,26 @@ input, select, textarea {
 						#banner-typing-text{
 							width: 120%;
 							color: #4acaa8;
-							font-size: 0.75em;
+							font-size: 1.2em;
 							font-weight: 700;
 							margin-top: -0.75em;
 						}
 
+						/* ////////projects h4/////////// */
+
+						.Projects-h4{
+							color: color:#474448;
+							position: absolute;
+							font-size: 0.8em;
+							top:0px;
+						}
+
+						/* ////////////////////////////// */
+
 
 						/* end of tpying text and beginnging of buttons */
 
-																		.Vbtn-1 {
+																		/* .Vbtn-1 {
 																			background:transparent;
 																			text-align: center;
 																			float:left;
@@ -2052,15 +2117,15 @@ input, select, textarea {
 																			left: -55%;
 																			position: absolute;
 																			top: 0;
-																		}
+																		} */
 
-																		.banner-text1{position:absolute; top: 50%; left: 80%; transform: translate(-50%, -50%);}
+																		.banner-text1{position:absolute; top: 50%; left: 72%; transform: translate(-50%, -50%);}
 
-																		.banner-text2{color:white; width: 500; position:absolute; top: 57%; left: 80%; transform: translate(-50%, -50%);}
+																		.banner-text2{color:white; width: 500; position:absolute; top: 57%; left: 72%; transform: translate(-50%, -50%);}
 
-																		.banner-text-row-1-text-1{color:white; border-bottom:0px;  font-size:0.8em;}
+																		/* .banner-text-row-1-text-1{color:white; border-bottom:0px;  font-size:0.8em;}
 
-																		.banner-text-row-1-text-2{color:white; border-bottom:0px;  font-size:0.8em; padding-left:85%;}
+																		.banner-text-row-1-text-2{color:white; border-bottom:0px;  font-size:0.8em; padding-left:85%;} */
 
 							/* //////////////////////////////End of header typing text and buttons/////////////////////////////////////// */
 
@@ -3338,7 +3403,9 @@ input, select, textarea {
 				}
 
 			.image.main {
-				height: 20em;
+				/* height: 20em; */
+				/* /////banner height/////// */
+				height: 45em;
 			}
 
 		/* Header */
@@ -3520,7 +3587,9 @@ input, select, textarea {
 			}
 
 			.image.main {
-				height: 12em;
+				/* height: 12em; */
+				/* ///////banner height/////// */
+				height: 33.5em;
 			}
 
 		/* Section/Article */
