@@ -566,6 +566,9 @@ input, select, textarea {
 
 				/* ////////////////////////////// */
 
+				.three{
+					background-image: url('../../images/coding-section-green.svg'); background-size: cover; background-position:350px -340px; background-repeat: no-repeat;
+				}
 
 
 
@@ -599,8 +602,11 @@ input, select, textarea {
 
 
 
-
 		@media screen and (max-width: 1680px) {
+
+			.three{
+				background-image: url('../../images/coding-section-green.svg'); background-size: cover; background-position:350px -340px; background-repeat: no-repeat;
+			}
 
 			.row {
 				display: flex;
@@ -846,6 +852,11 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1280px) {
+
+			.three{
+				background-image: url('../../images/coding-section-green.svg'); background-size: cover; background-position:350px -250px; background-repeat: no-repeat;
+			}
+
 
 			.row {
 				display: flex;
@@ -1157,6 +1168,10 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1024px) {
+
+			.three{
+				background-image: url('../../images/coding-section-green.svg'); background-size: cover; background-position:350px -235px; background-repeat: no-repeat;
+			}
 
 			.row {
 				display: flex;
@@ -1480,6 +1495,10 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+
+			.three{
+				background-image: url('../../images/coding-section-green2.svg'); background-size: cover; background-position:250px -50px; background-repeat: no-repeat;
+			}
 
 			.row {
 				display: flex;
@@ -1809,6 +1828,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+			.three{
+				background-image: url('../../images/coding-section-green2.svg'); background-size: cover; background-position:100px 50px; background-repeat: no-repeat;
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -2131,6 +2154,20 @@ input, select, textarea {
 
 
 		}
+
+			@media screen and (max-width: 361px) {
+				.three{
+					background-image: url('../../images/coding-section-green2.svg'); background-size: cover; background-position:50px 20px; background-repeat: no-repeat;
+				}
+
+			}
+
+			@media screen and (max-width: 321px) {
+				.three{
+					background-image: url('../../images/coding-section-green2.svg'); background-size: cover; background-position:20px 20px; background-repeat: no-repeat;
+				}
+
+			}
 
 
 
