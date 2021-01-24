@@ -9,16 +9,19 @@
 		<link rel="stylesheet" href="assets/css/hover_pack.css">
 		<link rel="stylesheet" href="assets/css/set_1.css">
 		<link rel="stylesheet" href="assets/css/general.css">
+		<link rel="stylesheet" href="/css/master.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
 			<section id="header">
-
 				<header>
-									<br><br><br>
-									<!-- <span class="image avatar"><img src="images/11254_Ameer Rayan_NV_0-01.png" alt="" /></span> -->
-									<h1 id="logo"><a href="#banner">Ameer Rayan</a></h1>
+					<br><br><br><br>
+									<h1 id="logo" ><a href="#banner">Ameer Rayan</a></h1>
 									<p>Computer Scientist<br />
 										</p>
 				</header>
@@ -124,7 +127,7 @@
 
 
 						<!-- Two -->
-						<section id="one">
+						<section id="one" >
 							<div class="container">
 
 
@@ -188,7 +191,7 @@
 
 					<div class="container" >
 
-							<h4 style="color:#474448;"><code># Things I've Built </code></h4>
+							<h4 style="color:#474448;"><code>#Things I've Built &nbsp; &nbsp; <a style="font-size:1.1em;" href="https://github.com/ameerry1998" class="icon brands fa-github"></span></a>  </code></h4>
 							<div class="box alt">
 											<div class="row gtr-50 gtr-uniform">
 
@@ -203,7 +206,6 @@
 															</a>
 														</span>
 													</div>
-
 
 
 													<div class="col-6">
@@ -254,7 +256,8 @@
 						</section>
 
 						<!-- Three -->
-							<section id="three">
+							<section id="three" style="background-image: url('images/coding-section-green.svg'); background-size: cover; background-position:350px -340px; background-repeat: no-repeat; ">
+								<!-- <img src="images/b (1).svg" alt=""> -->
 
 							 <div class="container">
 									<h3>Coding Challenges</h3>
@@ -264,7 +267,7 @@
 										<li class="icon solid fa-layer-group"><a href="https://github.com/ameerry1998/Common-Data-Structures/tree/main/src">Implmented Common Data Structures</a></li>
 										<li class="icon solid fa-map-marked"><a href="https://github.com/ameerry1998/climate_model/blob/master/climate_model.py">Dijkstra's Shortest Path</a></li>
 										<li class="icon solid fa-home">Amortization Schedule Calculator</li>
-										<li class="icon solid fa-bolt">FizzBuzz</li>
+										<li class="icon solid fa-bolt">365 Days of Leetcode</li>
 										<li class="icon solid fa-bomb"><a href="https://ameerry1998.github.io/minesweeper_javascript/">MineSweeper</a></li>
 										<li class="icon solid fa-project-diagram"><a href="https://github.com/ameerry1998">Various Small Projects</a></li>
 									</ul>
@@ -704,9 +707,12 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					<!-- Footer -->
 						<section id="footer">
 							<div class="container">
-								<ul class="copyright">
-									<li>Ameer Rayan</li><li><a href="mailto:Ameerrayan@brandeis.edu">Email me:  ameerrayan@brandeis.edu</a></li><li><a href="tel:13134232863">Phone:+1 313 423 2863</a></li>
+
+								<ul class="copyright" style="font-size:1.2em;">
+
+									<li><span class="image avatar"><img style="width:4em; radius:0;" src="images/IMG_2382.png" alt="" /></span></li> <li> Ameer Rayan</li><li><a href="mailto:Ameerrayan@brandeis.edu">Email me:  ameerrayan@brandeis.edu</a></li><li><a href="tel:13134232863">Phone:+1 313 423 2863</a></li>
 								</ul>
+
 							</div>
 						</section>
 
@@ -762,11 +768,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 		</script>
 
 
-		<script>
+		<!-- <script>
 				new TypeIt('#projects-blog',{speed:90, loop: false, html: true})
 				.type("Blog")
 				.go();
-		</script>
+		</script> -->
 
 		<script>
 		  window.addEventListener("DOMContentLoaded", function() {
@@ -822,6 +828,3 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 		    xhr.send(data);
 		  }
 		</script>
-
-	</body>
-</html>

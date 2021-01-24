@@ -3183,8 +3183,8 @@ input, select, textarea {
 
 			#header > header .avatar {
 				display: block;
-				margin: 0 auto 2.25em auto;
-				width: 12em;
+				margin: 0 auto 0.5em auto;
+				width: 15.9em;
 			}
 
 			#header > header h1 {

@@ -159,6 +159,23 @@
 })(jQuery);
 
 
-
-
-// Here we have the form functionality through formspree
+// scrolling effects
+//
+// var tl = new TimelineMax({onUpdate:updatePercentage});
+// cosnt controller = new ScrollMagic.Controller();
+//
+// tl.from("h3", .5,{x:200px; opacity:0});
+//
+// const scene = new ScrollMagic.Scene({
+// 	triggerElement: "#one",
+// 	triggerHook:"onLeave",
+// 	duration:"100%"
+// })
+// 	.setPin("#one")
+// 	.setTween(tl)
+// 		.addTo(controller);
+//
+// function updatePercentage() {
+// 	tl.progress();
+// 	console.log(tl.progress());
+// }
